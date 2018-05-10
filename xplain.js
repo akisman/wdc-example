@@ -55,8 +55,7 @@
 
         $.ajax({
             type: "POST",
-            url: "http://xlabs.xplain360.com/api/v1/posts",
-            // url: "http://drupal.docker.localhost:8000/api/v1/posts",
+            url: "https://xlabs.xplain360.com/api/v1/posts",
             async: true,
             //dataType: "json",
             data: {"token": token, "id": id},
